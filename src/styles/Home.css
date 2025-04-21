@@ -1,4 +1,4 @@
-/* src/styles/Home.css */
+
 :root {
     --primary-color: #1e4553;
     --primary-hover: #3a5cdd;
@@ -212,6 +212,9 @@ button {
 /* Section Content */
 .section-content {
     margin-bottom: 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .section h2 {
