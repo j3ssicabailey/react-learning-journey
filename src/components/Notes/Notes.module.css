@@ -1,0 +1,82 @@
+    .notes {
+        padding: 2rem 1rem;
+    }
+    
+    .notesTitle {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cardGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .noteCard {
+        background: #f4f4f4;
+        border-radius: 1rem;
+        padding: 1rem;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    
+    .noteCard:hover {
+        transform: scale(1.02);
+    }
+    
+    .cardIcon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .noteContent {
+        padding: 1rem;
+    }
+    
+    .noteSection {
+        margin-bottom: 2rem;
+    }
+    
+    .noteSection pre {
+        background: #222;
+        color: #fff;
+        padding: 1rem;
+        overflow-x: auto;
+        border-radius: 0.5rem;
+    }
+    
+    .diagram {
+        max-width: 100%;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    
+    .caption {
+        font-size: 0.9rem;
+        text-align: center;
+        color: #555;
+    }
+    
+    .backBtn {
+        display: inline-block;
+        margin-bottom: 1rem;
+        background: #eee;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .cardGrid {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .notesTitle {
+        font-size: 2.5rem;
+        }
+    }
+  
